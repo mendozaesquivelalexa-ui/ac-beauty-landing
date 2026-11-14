@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -26,7 +26,9 @@
   </script>
 
   <style>
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       font-family: Arial, sans-serif;
@@ -310,15 +312,15 @@
 
   <!-- WHATSAPP -->
   <script>
-    // CAMBIA ESTE NUMERO POR TU NUMERO REAL
-    const NUMERO_WHATSAPP = "938827586";
+    // NUMERO DE WHATSAPP DE AC BEAUTY (PERU)
+    const NUMERO_WHATSAPP = "51938827586";
 
     function comprar() {
       const mensaje =
         "Hola AC Beauty 💗 Quiero información del Kit de Maquillaje. ¿Me pueden indicar el precio y qué productos incluye?";
 
       if (!/^51\d{9}$/.test(NUMERO_WHATSAPP)) {
-        alert("Primero coloca tu número real de WhatsApp en el código.");
+        alert("El número de WhatsApp no tiene el formato correcto.");
         return;
       }
 
@@ -332,3 +334,4 @@
 
 </body>
 </html>
+```
