@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AC Beauty - Tu belleza, tu esencia. Descubre nuestro kit de maquillaje.">
+  <title>AC Beauty | Kit de Maquillaje</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            rosa: '#E99AB7',
+            rosaclaro: '#FFF3F7',
+            dorado: '#C6A15B',
+            vino: '#63394B'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #63394B;
+    }
+
+    .elegante {
+      font-family: Georgia, serif;
+    }
+
+    .fondo {
+      background: linear-gradient(135deg, #fff4f7, #fce5ed, #fffafa);
+    }
+
+    .boton {
+      background: #D879A0;
+      transition: .3s;
+    }
+
+    .boton:hover {
+      background: #B95880;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+
+<body class="bg-white">
+
+  <!-- SECCION PRINCIPAL -->
+  <main>
+
+    <section class="fondo px-5 py-16 md:py-24">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+        <div>
+          <p class="text-dorado font-bold tracking-widest mb-5">
+            AC BEAUTY
+          </p>
+
+          <h1 class="elegante text-5xl md:text-6xl leading-tight mb-6">
+            Tu belleza merece brillar todos los días.
+          </h1>
+
+          <p class="text-gray-600 text-lg leading-relaxed mb-7">
+            Descubre nuestro Kit de Maquillaje AC Beauty.
+            Una selección de productos para complementar tu rutina,
+            expresar tu estilo y disfrutar cada momento.
+          </p>
+
+          <p class="font-bold text-xl mb-6">
+            ¡Tu belleza, tu esencia!
+          </p>
+
+          <a href="#producto"
+             class="boton inline-block text-white font-bold px-8 py-4 rounded-full">
+            Descubrir mi Kit
+          </a>
+        </div>
+
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85"
+            alt="Productos de maquillaje"
+            class="rounded-3xl shadow-xl w-full object-cover"
+          >
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="py-20 px-5">
+      <div class="max-w-6xl mx-auto">
+
+        <div class="text-center mb-14">
+          <p class="text-dorado font-bold mb-3">
+            NUESTRA PROPUESTA
+          </p>
+
+          <h2 class="elegante text-4xl md:text-5xl mb-4">
+            ¿Por qué elegir AC Beauty?
+          </h2>
+
+          <p class="text-gray-500">
+            Queremos que disfrutes cada detalle de tu experiencia de belleza.
+          </p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-7">
+
+          <article class="bg-rosaclaro rounded-3xl p-7 text-center">
+            <div class="text-4xl mb-4">💄</div>
+            <h3 class="font-bold mb-3">Belleza en un solo kit</h3>
+            <p class="text-gray-600 text-sm">
+              Encuentra productos esenciales para complementar tu maquillaje.
+            </p>
+          </article>
+
+          <article class="bg-rosaclaro rounded-3xl p-7 text-center">
+            <div class="text-4xl mb-4">✨</div>
+            <h3 class="font-bold mb-3">Resalta tu estilo</h3>
+            <p class="text-gray-600 text-sm">
+              Expresa tu personalidad y crea looks para diferentes ocasiones.
+            </p>
+          </article>
+
+          <article class="bg-rosaclaro rounded-3xl p-7 text-center">
+            <div class="text-4xl mb-4">🎀</div>
+            <h3 class="font-bold mb-3">Un regalo especial</h3>
+            <p class="text-gray-600 text-sm">
+              Una alternativa bonita para sorprender a alguien especial.
+            </p>
+          </article>
+
+          <article class="bg-rosaclaro rounded-3xl p-7 text-center">
+            <div class="text-4xl mb-4">💗</div>
+            <h3 class="font-bold mb-3">Atención personalizada</h3>
+            <p class="text-gray-600 text-sm">
+              Te ayudamos a conocer nuestros productos antes de comprar.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTO -->
+    <section id="producto" class="fondo py-20 px-5">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+        <img
+          src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=85"
+          alt="Kit de maquillaje"
+          class="rounded-3xl shadow-xl w-full object-cover"
+        >
+
+        <div>
+          <p class="text-dorado font-bold mb-4">
+            PRODUCTO DESTACADO
+          </p>
+
+          <h2 class="elegante text-4xl md:text-5xl mb-6">
+            Kit de Maquillaje AC Beauty
+          </h2>
+
+          <p class="text-gray-600 leading-relaxed mb-7">
+            Dale un toque especial a tu rutina de belleza.
+            Nuestro kit reúne productos de maquillaje para
+            acompañarte en tu día a día.
+          </p>
+
+          <div class="bg-white rounded-2xl p-6 mb-7 shadow-sm">
+            <h3 class="font-bold mb-4">Descubre tu kit</h3>
+
+            <ul class="space-y-3 text-gray-600 text-sm">
+              <li>✓ Productos esenciales de maquillaje.</li>
+              <li>✓ Opciones para complementar tu look.</li>
+              <li>✓ Una propuesta especial de AC Beauty.</li>
+              <li>✓ Atención personalizada.</li>
+            </ul>
+          </div>
+
+          <p class="font-bold text-2xl mb-6">
+            Consulta nuestro precio.
+          </p>
+
+          <button onclick="comprar()"
+            class="boton text-white font-bold px-8 py-4 rounded-full">
+            Comprar por WhatsApp
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SOBRE AC BEAUTY -->
+    <section class="py-20 px-5">
+      <div class="max-w-5xl mx-auto text-center">
+
+        <p class="text-dorado font-bold mb-4">
+          NUESTRA ESENCIA
+        </p>
+
+        <h2 class="elegante text-4xl md:text-5xl mb-7">
+          Tu belleza, tu esencia, tu momento.
+        </h2>
+
+        <p class="text-gray-500 leading-relaxed max-w-3xl mx-auto">
+          En AC Beauty creemos que la belleza está en expresar
+          quién eres. Buscamos ofrecer productos de maquillaje
+          que acompañen tu estilo y hagan especial cada momento.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section class="bg-rosaclaro py-20 px-5">
+      <div class="max-w-3xl mx-auto">
+
+        <h2 class="elegante text-4xl text-center mb-12">
+          Preguntas frecuentes
+        </h2>
+
+        <div class="space-y-4">
+
+          <details class="bg-white rounded-2xl p-5">
+            <summary class="font-bold cursor-pointer">
+              ¿Cómo puedo comprar el kit?
+            </summary>
+            <p class="text-gray-600 text-sm mt-4">
+              Escríbenos por WhatsApp para consultar el precio y disponibilidad.
+            </p>
+          </details>
+
+          <details class="bg-white rounded-2xl p-5">
+            <summary class="font-bold cursor-pointer">
+              ¿Qué productos incluye?
+            </summary>
+            <p class="text-gray-600 text-sm mt-4">
+              Puedes solicitar la lista de productos que contiene el kit.
+            </p>
+          </details>
+
+          <details class="bg-white rounded-2xl p-5">
+            <summary class="font-bold cursor-pointer">
+              ¿Puedo comprarlo para regalar?
+            </summary>
+            <p class="text-gray-600 text-sm mt-4">
+              Consulta nuestras opciones de presentación disponibles.
+            </p>
+          </details>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CIERRE -->
+    <section class="bg-vino text-white text-center py-20 px-5">
+      <div class="max-w-3xl mx-auto">
+
+        <p class="text-dorado tracking-widest font-bold mb-5">
+          AC BEAUTY
+        </p>
+
+        <h2 class="elegante text-4xl md:text-5xl mb-6">
+          ¡Haz que cada momento sea especial!
+        </h2>
+
+        <p class="text-white/80 mb-9 leading-relaxed">
+          Descubre nuestro Kit de Maquillaje y encuentra
+          tus próximos favoritos de belleza.
+        </p>
+
+        <button onclick="comprar()"
+          class="boton text-white font-bold px-9 py-4 rounded-full">
+          💗 Pedir mi Kit por WhatsApp
+        </button>
+
+        <p class="elegante text-3xl mt-12 text-pink-200">
+          AC Beauty
+        </p>
+
+        <p class="text-xs tracking-widest mt-2">
+          TU BELLEZA, TU ESENCIA
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- BOTON FLOTANTE PARA CELULARES -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 bg-white p-3 shadow-lg md:hidden">
+    <button onclick="comprar()"
+      class="boton w-full text-white font-bold py-4 rounded-full">
+      💬 Comprar por WhatsApp
+    </button>
+  </div>
+
+  <!-- WHATSAPP -->
+  <script>
+    // CAMBIA ESTE NUMERO POR TU NUMERO REAL
+    const NUMERO_WHATSAPP = "519XXXXXXXX";
+
+    function comprar() {
+      const mensaje =
+        "Hola AC Beauty 💗 Quiero información del Kit de Maquillaje. ¿Me pueden indicar el precio y qué productos incluye?";
+
+      if (!/^51\d{9}$/.test(NUMERO_WHATSAPP)) {
+        alert("Primero coloca tu número real de WhatsApp en el código.");
+        return;
+      }
+
+      const enlace = "https://wa.me/" +
+        NUMERO_WHATSAPP +
+        "?text=" + encodeURIComponent(mensaje);
+
+      window.open(enlace, "_blank", "noopener,noreferrer");
+    }
+  </script>
+
+</body>
+</html>
